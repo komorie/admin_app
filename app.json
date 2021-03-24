@@ -1,10 +1,12 @@
 {
   "expo": {
-    "name": "admin_rsv",
+    "name": "이로운건강방 관리자용",
     "slug": "admin_rsv",
-    "version": "1.0.0",
+    "version": "1.0.6",
+    "privacy": "public",
+    "platforms":["android"],
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/메인투명.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,17 +18,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
+      "versionCode": 6,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/메인투명.png",
         "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      },
+      "package": "com.crona.admin_rsv"
     }
   }
 }
